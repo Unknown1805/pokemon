@@ -1,0 +1,141 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.pokedex {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+.pokedex_img_background {
+  width: 475px;
+  height: 625px;
+  background-color: #c42e3d;
+  border-radius: 20px;
+  border: solid black 1px;
+}
+
+.flex_info {
+  height: 625px;
+  width: 380px;
+  display: flex;
+  align-items: center;
+}
+.pokedex_info_background {
+  width: 380px;
+  height: 522.5px;
+  background-color: #c42e3d;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border: solid black 1px;
+}
+
+.pokedex_img_border {
+  background-color: #dedede;
+  width: 325px;
+  height: 400px;
+  border-radius: 20px;
+  position: absolute;
+  top: 275px;
+  border: solid black 1px;
+}
+
+.flex_img {
+  width: 475px;
+  height: 625px;
+  display: flex;
+  justify-content: center;
+}
+
+.img_poke {
+  background-color: white;
+  width: 260px;
+  height: 290px;
+  border-radius: 20px;
+  position: absolute;
+  top: 40px;
+  border: solid black 1px;
+}
+
+.flex_img_poke {
+  width: 325px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+}
+
+.flex_info_stats {
+  width: 380px;
+  height: 522.5px;
+  display: flex;
+  justify-content: center;
+}
+.info_stats {
+  width: 325px;
+  height: 350px;
+  background-color: #172c28;
+  border-radius: 20px;
+  position: absolute;
+  top: 275px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+
+.title {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  text-decoration: underline;
+  font-size: 22px;
+}
+.title_name,
+.title_type,
+.title_height,
+.title_weight {
+  color: white;
+  font-family: "Oswald", sans-serif;
+  padding-top: 15px;
+  font-size: 20px;
+  min-height: 24px;
+}
+
+.half_one,
+.half_two {
+  display: flex;
+  width: 325px;
+  justify-content: space-around;
+}
+
+.flex_search {
+  width: 380px;
+  height: 522.5px;
+  display: flex;
+  justify-content: center;
+}
+
+.search {
+  position: absolute;
+  top: 225px;
+}
+
+.search_inp {
+  width: 275px;
+  height: 30px;
+  padding: 15px;
+  font-size: 16px;
+  background-color: #172c28;
+  color: white;
+  border: none;
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+}
+
+.name,
+.type,
+.height,
+.weight {
+  display: flex;
+  flex-direction: column;
+}
